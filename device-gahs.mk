@@ -58,3 +58,7 @@ PRODUCT_PACKAGES += \
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
+
+# LMK
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lmk.use_psi=true
