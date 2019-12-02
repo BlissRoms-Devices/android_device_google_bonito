@@ -54,3 +54,7 @@ PRODUCT_PACKAGES += \
     nos_app_avb \
     nos_app_keymaster \
     nos_app_weaver
+
+# Preopt SystemUI
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI
