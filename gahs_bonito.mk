@@ -16,6 +16,7 @@
 
 $(call inherit-product, device/google/bonito/aosp_bonito.mk)
 $(call inherit-product, vendor/gahs/config/common.mk)
+$(call inherit-product, device/google/bonito/device-gahs.mk)
 
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2160
