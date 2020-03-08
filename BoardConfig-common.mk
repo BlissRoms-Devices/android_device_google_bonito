@@ -15,6 +15,7 @@
 #
 
 include build/make/target/board/BoardConfigMainlineCommon.mk
+include device/google/bonito/BoardConfig-gahs.mk
 
 TARGET_BOARD_PLATFORM := sdm710
 TARGET_BOARD_INFO_FILE := device/google/bonito/board-info.txt
