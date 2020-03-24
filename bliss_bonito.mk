@@ -15,14 +15,14 @@
 #
 
 $(call inherit-product, device/google/bonito/aosp_bonito.mk)
-$(call inherit-product, vendor/gahs/config/common.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 $(call inherit-product, device/google/bonito/device-gahs.mk)
 $(call inherit-product-if-exists, vendor/google/bonito/bonito-vendor.mk)
 
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2160
 
-PRODUCT_NAME := gahs_bonito
+PRODUCT_NAME := bliss_bonito
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 3a XL
 
