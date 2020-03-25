@@ -19,6 +19,8 @@ ifneq ($(TARGET_BUILD_GAPPS),false)
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 endif
 
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += device/google/bonito/overlay/packages/apps/Bluetooth
+
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig
