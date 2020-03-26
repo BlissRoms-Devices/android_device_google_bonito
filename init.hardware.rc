@@ -918,3 +918,7 @@ on property:persist.sys.theme=1
 
 on property:persist.sys.theme=0
     start vendor.theme_clear
+
+# Smart Charging
+chown system system /sys/class/power_supply/battery/input_suspend
+chmod 0666 /sys/class/power_supply/battery/input_suspend
