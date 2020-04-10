@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "github",
+    "repository": "BlissRoms-Devices/android_device_google_bonito",
+    "target_path": "device/google/bonito",
+    "revision": "q"
+  },
+  {
+    "remote": "github",
+    "repository": "BlissRoms-Devices/android_kernel_google_b4s4",
+    "target_path": "kernel/google/b4s4",
+    "revision": "q"
+  },
+  {
+    "remote": "github",
+    "repository": "BlissRoms-Devices/proprietary_android_vendor_google",
+    "target_path": "vendor/google",
+    "revision": "q"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "shagbag913/vendor_gapps",
+    "target_path": "vendor/gapps",
+    "revision": "ten"
+  }
+]
