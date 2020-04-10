@@ -29,6 +29,9 @@ PRODUCT_MODEL := Pixel 3a XL
 # Spoof to pass SafetyNet
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=bonito
+    PRIVATE_BUILD_DESC="bonito-user 10 QQ2A.200405.005 6254899 release-keys"
 
-include device/google/bonito/base_fingerprint.mk
-BUILD_FINGERPRINT := google/bonito/bonito:$(BASE_FINGERPRINT):user/release-keys
+BUILD_FINGERPRINT := "google/bonito/bonito:QQ2A.200405.005/6254899:user/release-keys"
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=google/bonito/bonito:10/QQ2A.200405.005/6254899:user/release-keys
