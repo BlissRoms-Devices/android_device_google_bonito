@@ -16,11 +16,5 @@
     "repository": "BlissRoms-Devices/proprietary_android_vendor_google",
     "target_path": "vendor/google",
     "revision": "q"
-  },
-  {
-    "remote": "gitlab",
-    "repository": "shagbag913/vendor_gapps",
-    "target_path": "vendor/gapps",
-    "revision": "ten"
   }
 ]
