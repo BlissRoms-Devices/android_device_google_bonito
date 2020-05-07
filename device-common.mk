@@ -148,3 +148,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # EUICC
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:system/etc/permissions/android.hardware.telephony.euicc.xml
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1440
