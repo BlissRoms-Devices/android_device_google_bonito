@@ -19,7 +19,4 @@
     <!-- Whether to display active edge category -->
     <bool name="has_active_edge">true</bool>
 
-    <!-- Whether to display pixel gestures category -->
-    <bool name="is_pixel_device">true</bool>
-
 </resources>
