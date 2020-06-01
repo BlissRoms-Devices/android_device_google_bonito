@@ -45,6 +45,7 @@ product/etc/CarrierSettings/fizz_ca.pb
 product/etc/CarrierSettings/freedommobile_ca.pb
 product/etc/CarrierSettings/h3_at.pb
 product/etc/CarrierSettings/h3_gb.pb
+product/etc/CarrierSettings/h3_se.pb
 product/etc/CarrierSettings/idea_in.pb
 product/etc/CarrierSettings/idmobile_gb.pb
 product/etc/CarrierSettings/kddi_jp.pb
@@ -64,6 +65,7 @@ product/etc/CarrierSettings/rakuten_jp.pb
 product/etc/CarrierSettings/rjio_in.pb
 product/etc/CarrierSettings/rogers_ca.pb
 product/etc/CarrierSettings/sfr_fr.pb
+product/etc/CarrierSettings/shaw_ca.pb
 product/etc/CarrierSettings/singtel_sg.pb
 product/etc/CarrierSettings/softbank_jp.pb
 product/etc/CarrierSettings/solomobile_ca.pb
@@ -83,6 +85,7 @@ product/etc/CarrierSettings/telia_no.pb
 product/etc/CarrierSettings/telia_se.pb
 product/etc/CarrierSettings/telstra_au.pb
 product/etc/CarrierSettings/telus_ca.pb
+product/etc/CarrierSettings/three_dk.pb
 product/etc/CarrierSettings/tim_it.pb
 product/etc/CarrierSettings/tmobile_nl.pb
 product/etc/CarrierSettings/tmobile_us.pb
