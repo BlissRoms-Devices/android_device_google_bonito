@@ -1,12 +1,6 @@
 [
   {
     "remote": "github",
-    "repository": "BlissRoms/platform_external_google",
-    "target_path": "external/google",
-    "revision": "q"
-  },
-  {
-    "remote": "github",
     "repository": "BlissRoms-Devices/android_device_google_bonito",
     "target_path": "device/google/bonito",
     "revision": "q"

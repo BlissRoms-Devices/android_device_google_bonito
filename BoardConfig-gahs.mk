@@ -34,4 +34,15 @@ TARGET_KERNEL_CONFIG := dank_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/b4s4
 DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 
+# GAPPS
+TARGET_GAPPS_OVERRIDE += \
+    CustomDoze \
+    AudioFX \
+    BlissDialer \
+    ExactCalculator \
+    Etar \
+    Snap \
+    Jelly
+    
+
 -include vendor/google/bonito/BoardConfigVendor.mk
