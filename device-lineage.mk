@@ -14,6 +14,14 @@
 # limitations under the License.
 #
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Inherit PixelGApps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
+TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 # Build necessary packages for system
 PRODUCT_PACKAGES += \
     libmediaplayerservice \
@@ -92,6 +100,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.mediadrmservice.enable=true \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
+    
+$(call inherit-product, vendor/gapps/gapps.mk)    
 
 # Trust HAL
 PRODUCT_PACKAGES += \
