@@ -22,7 +22,7 @@ TARGET_NEEDS_DTBOIMAGE := true
 
 # Manifests
 DEVICE_MANIFEST_FILE += device/google/bonito/lineage_manifest.xml
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/bliss/config/device_framework_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += device/google/bonito/device_framework_matrix-los.xml
 
 # Partitions
 AB_OTA_PARTITIONS += \
