@@ -1,0 +1,16 @@
+[
+  {
+    "repository": "android_kernel_google_b4s4",
+    "target_path": "kernel/google/msm-4.9"
+  },
+  {
+    "repository": "proprietary_vendor_google",
+    "target_path": "vendor/google"
+  },
+  {
+    "repository": "LineageOS/android_packages_apps_ElmyraService",
+    "revision": "lineage-19.0",
+    "remote": "github",
+    "target_path": "packages/apps/ElmyraService"
+  }
+]
