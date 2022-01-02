@@ -12,6 +12,10 @@ $(call inherit-product, device/google/bonito/aosp_sargo.mk)
 
 include device/google/bonito/device-lineage.mk
 
+# Maintainer overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    overlay-sargo
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 3a
