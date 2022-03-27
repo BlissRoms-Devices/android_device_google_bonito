@@ -1,7 +1,7 @@
 [
   {
     "repository": "android_kernel_google_b4s4",
-    "target_path": "kernel/google/msm-4.9"
+    "target_path": "kernel/google/b4s4"
   },
   {
     "repository": "proprietary_vendor_google",
